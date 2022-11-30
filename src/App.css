@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.main_body {
+    min-height: 90vh;
+}
+
+.navbar {
+    background-color: #c60d5c;
+    text-align: center;
+}
+
+.navbar-nav a {
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-nav a:hover {
+    color: white;
+}
+
+.navbar-nav a.active {
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler i {
+    font-size: 30px;
+    color: wheat;
+}
+
+.navbar-brand img {
+    width: 90px;
+}
+
+button:disabled {
+    background-color: rgba(0, 0, 0, .03) !important;
+}
+
+.navbar-nav li {
+    margin: 0 30px;
+}
+
+.orderCount {
+    border: 2px solid #c60d5c;
+    border-radius: 5px;
+    margin: 15px 0 !important;
+}
+
+.orderCount h4 {
+    border-bottom: 2px solid wheat;
+    margin: 15px 0 20px 0;
+    padding-bottom: 20px;
+}
+
+.orderCount div {
+    margin: 20px 0;
+    border-top: 2px solid wheat;
+    padding-top: 20px;
+}
+
+.orderCount div p {
+    margin: 0 !important;
+}
+
+.orderCSpan {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 5px;
+    word-break: break-all;
+}
+
+.authForm p {
+    color: #c60d5c;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+.authUser {
+    padding: 40px 0 25px 0;
+    background-color: #c60d5c;
+    border-radius: 5px;
+    color: wheat;
+}
